@@ -903,7 +903,7 @@ on_message stuff
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '''
 
-def on_message(message, data):
+def on_message(message, _data):
 
 
     if message['type'] == 'send':
