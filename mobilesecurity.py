@@ -3,8 +3,7 @@ import sys
 import json
 import frida
 import time
-from flask_bootstrap import Bootstrap
-from flask_socketio import SocketIO, emit
+from flask_socketio import SocketIO
 from flask import Flask, request, render_template, redirect, url_for
 
 app = Flask(__name__)
